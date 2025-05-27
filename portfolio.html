@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ghazala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Ghazala</span>
+                <div class="logo-accent"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">My Portfolio</h1>
+                <p class="page-subtitle">A showcase of my journey through design, development, and photography</p>
+            </div>
+        </section>
+
+        <section class="portfolio-content">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="graphics">Graphics & Motion</button>
+                    <button class="filter-btn" data-filter="photography">Photography</button>
+                    <button class="filter-btn" data-filter="academic">Academic Projects</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-1">
+                                <span>💻</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>A responsive portfolio website built with HTML and CSS, showcasing my journey from physics to frontend development.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="graphics">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-2">
+                                <span>🎨</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Motion Graphics Showcase</h3>
+                            <p>A collection of motion graphics projects created during my studies at Code to Inspire, featuring smooth animations and visual storytelling.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Motion Graphics</span>
+                                <span class="tag">Animation</span>
+                                <span class="tag">Visual Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="photography">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-3">
+                                <span>📸</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Photography Collection</h3>
+                            <p>A curated selection of my photography work, capturing moments and emotions through different perspectives and lighting techniques.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Photography</span>
+                                <span class="tag">Visual Storytelling</span>
+                                <span class="tag">Composition</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-4">
+                                <span>🌐</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>UC Berkeley CSS Project</h3>
+                            <p>Advanced CSS techniques and layouts demonstrated through my certification project at UC Berkeley.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">Flexbox</span>
+                                <span class="tag">Animations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="graphics">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-5">
+                                <span>✨</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Brand Identity Design</h3>
+                            <p>Logo and brand identity designs created using principles learned at Code to Inspire, focusing on clean and modern aesthetics.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">Logo Design</span>
+                                <span class="tag">Identity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="academic">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-6">
+                                <span>🔬</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Physics Visualization</h3>
+                            <p>Interactive visualizations of physics concepts, combining my academic background with design skills to make complex ideas accessible.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Physics</span>
+                                <span class="tag">Visualization</span>
+                                <span class="tag">Education</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web academic">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-7">
+                                <span>📊</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>CTI Learning Projects</h3>
+                            <p>A collection of frontend development exercises and projects completed during my current studies at CTA.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Frontend</span>
+                                <span class="tag">Learning</span>
+                                <span class="tag">Practice</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="graphics photography">
+                        <div class="portfolio-image">
+                            <div class="project-placeholder project-8">
+                                <span>🎭</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Digital Art Series</h3>
+                            <p>A fusion of photography and digital graphics, creating artistic compositions that blend reality with digital enhancement.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Digital Art</span>
+                                <span class="tag">Photo Manipulation</span>
+                                <span class="tag">Creative</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <div class="container">
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">🎓</div>
+                        <h3>UC Berkeley Certification</h3>
+                        <p>HTML & CSS Certification from University of California, Berkeley</p>
+                        <span class="achievement-year">2024</span>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">🎨</div>
+                        <h3>Code to Inspire Graduate</h3>
+                        <p>Completed Graphics and Motion Design program</p>
+                        <span class="achievement-year">Graduate</span>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">📚</div>
+                        <h3>Physics Foundation</h3>
+                        <p>Two years of Physics studies at Herat University</p>
+                        <span class="achievement-year">2 Years</span>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">💼</div>
+                        <h3>Microsoft Proficiency</h3>
+                        <p>Advanced skills in all Microsoft Office programs</p>
+                        <span class="achievement-year">Expert Level</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ghazala. From physics to pixels, creating digital beauty.</p>
+        </div>
+    </footer>
+</body>
+</html>

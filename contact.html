@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ghazala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Ghazala</span>
+                <div class="logo-accent"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Let's Connect</h1>
+                <p class="page-subtitle">Ready to collaborate on your next project?</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>I'm always excited to work on new projects and collaborate with creative minds. Whether you need frontend development, graphics design, or photography services, I'd love to hear about your ideas and help bring them to life.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <div class="method-info">
+                                    <h3>Email</h3>
+                                    <p>ghazalforough5@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">💼</div>
+                                <div class="method-info">
+                                    <h3>LinkedIn</h3>
+                                    <p>ghazalh Mohammadi  https://www.linkedin.com/in/ghazalh-mohammadi-5b0527364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">🎨</div>
+                                <div class="method-info">
+                                    <h3>Portfolio</h3>
+                                    <p>https://github.com/ghazalh2002</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="services-offered">
+                            <h3>Services I Offer</h3>
+                            <div class="services-list">
+                                <div class="service-item">
+                                    <span class="service-icon">💻</span>
+                                    <span>Frontend Development</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">🎨</span>
+                                    <span>Graphics & Motion Design</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">📸</span>
+                                    <span>Photography Services</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">📊</span>
+                                    <span>Microsoft Office Solutions</span>
+                                </div>
+                                <div class="service-item">
+                                    <span class="service-icon">🎓</span>
+                                    <span>typing fast </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="availability">
+                            <h3>Current Status</h3>
+                            <p><strong>🎓 Student at CTI:</strong> Currently expanding my frontend development skills</p>
+                            <p><strong>💼 Available for:</strong> Freelance projects, collaborations, and part-time opportunities</p>
+                            <p><strong>⏰ Response time:</strong> 24-48 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Project Type</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Choose a service...</option>
+                                    <option value="frontend">Frontend Development</option>
+                                    <option value="graphics">Graphics & Motion Design</option>
+                                    <option value="photography">Photography</option>
+                                    <option value="office">Microsoft Office Help</option>
+                                    <option value="tutoring">typing fast</option>
+                                    <option value="collaboration">Collaboration</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Project Budget (Optional)</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget range...</option>
+                                    <option value="small">Small Project ($100-$500)</option>
+                                    <option value="medium">Medium Project ($500-$1500)</option>
+                                    <option value="large">Large Project ($1500+)</option>
+                                    <option value="discuss">Let's Discuss</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, timeline, and any specific requirements..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-quote">
+                    <blockquote>
+                        "From the precision of physics to the creativity of design, I bring analytical thinking and artistic vision to every project."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ghazala. From physics to pixels, creating digital beauty.</p>
+        </div>
+    </footer>
+</body>
+</html>
